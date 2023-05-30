@@ -18,10 +18,7 @@ header{
     overflow: hidden;
 
     padding: 30px;
-    background: linear-gradient(to right, 
-                rgba(14, 236, 151, 0.65) ,
-                rgba(128, 13, 223, 0.65)),
-                url(../img/guitar-1.jpg);
+    background-image: url('./images/guitar.jpeg');
     height: 90vh;
     width: 100vw;
     border: none;
@@ -29,7 +26,6 @@ header{
     background-position: center;
     background-size: cover;
     position: relative;
-    clip-path: polygon(2% 11%, 3% 7%, 96% 16%, 96% 27%, 91% 79%, 10% 93%, 8% 89%);
     position: relative;
 }
 
